@@ -1,0 +1,1855 @@
+DIGEST daba6ee319cb99e826c782f162487f48
+FFSPL.Imp
+R1687:1691 FSPL.SfLib <> <> lib
+R1709:1713 Coq.omega.Omega <> <> lib
+mod 2179:2182 <> AExp
+ind 2299:2302 AExp aexp
+constr 2318:2321 AExp ANum
+constr 2341:2345 AExp APlus
+constr 2374:2379 AExp AMinus
+constr 2408:2412 AExp AMult
+R2328:2331 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2332:2335 FSPL.Imp <> aexp ind
+R2325:2327 Coq.Init.Datatypes <> nat ind
+R2353:2356 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2361:2364 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2365:2368 FSPL.Imp <> aexp ind
+R2357:2360 FSPL.Imp <> aexp ind
+R2349:2352 FSPL.Imp <> aexp ind
+R2387:2390 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2395:2398 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2399:2402 FSPL.Imp <> aexp ind
+R2391:2394 FSPL.Imp <> aexp ind
+R2383:2386 FSPL.Imp <> aexp ind
+R2420:2423 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2428:2431 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2432:2435 FSPL.Imp <> aexp ind
+R2424:2427 FSPL.Imp <> aexp ind
+R2416:2419 FSPL.Imp <> aexp ind
+ind 2449:2452 AExp bexp
+constr 2468:2472 AExp BTrue
+constr 2485:2490 AExp BFalse
+constr 2503:2505 AExp BEq
+constr 2534:2536 AExp BLe
+constr 2565:2568 AExp BNot
+constr 2589:2592 AExp BAnd
+R2476:2479 FSPL.Imp <> bexp ind
+R2494:2497 FSPL.Imp <> bexp ind
+R2513:2516 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2521:2524 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2525:2528 FSPL.Imp <> bexp ind
+R2517:2520 FSPL.Imp AExp aexp ind
+R2509:2512 FSPL.Imp AExp aexp ind
+R2544:2547 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2552:2555 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2556:2559 FSPL.Imp <> bexp ind
+R2548:2551 FSPL.Imp AExp aexp ind
+R2540:2543 FSPL.Imp AExp aexp ind
+R2576:2579 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2580:2583 FSPL.Imp <> bexp ind
+R2572:2575 FSPL.Imp <> bexp ind
+R2600:2603 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2608:2611 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R2612:2615 FSPL.Imp <> bexp ind
+R2604:2607 FSPL.Imp <> bexp ind
+R2596:2599 FSPL.Imp <> bexp ind
+def 5221:5225 AExp aeval
+R5232:5235 FSPL.Imp AExp aexp ind
+R5240:5242 Coq.Init.Datatypes <> nat ind
+R5255:5255 FSPL.Imp <> a var
+R5266:5269 FSPL.Imp AExp ANum constr
+R5282:5286 FSPL.Imp AExp APlus constr
+R5297:5297 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R5306:5310 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R5319:5319 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R5298:5302 FSPL.Imp <> aeval def
+R5311:5315 FSPL.Imp <> aeval def
+R5325:5330 FSPL.Imp AExp AMinus constr
+R5342:5342 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R5351:5355 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R5364:5364 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R5343:5347 FSPL.Imp <> aeval def
+R5356:5360 FSPL.Imp <> aeval def
+R5370:5374 FSPL.Imp AExp AMult constr
+R5385:5385 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R5394:5398 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R5407:5407 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R5386:5390 FSPL.Imp <> aeval def
+R5399:5403 FSPL.Imp <> aeval def
+def 5425:5435 AExp test_aeval1
+R5471:5473 Coq.Init.Logic <> :type_scope:x_'='_x not
+R5440:5444 FSPL.Imp AExp aeval def
+R5447:5451 FSPL.Imp AExp APlus constr
+R5463:5466 FSPL.Imp AExp ANum constr
+R5454:5457 FSPL.Imp AExp ANum constr
+def 5592:5596 AExp beval
+R5603:5606 FSPL.Imp AExp bexp ind
+R5611:5614 Coq.Init.Datatypes <> bool ind
+R5627:5627 FSPL.Imp <> b var
+R5638:5642 FSPL.Imp AExp BTrue constr
+R5653:5656 Coq.Init.Datatypes <> true constr
+R5662:5667 FSPL.Imp AExp BFalse constr
+R5677:5681 Coq.Init.Datatypes <> false constr
+R5687:5689 FSPL.Imp AExp BEq constr
+R5702:5708 Coq.Arith.EqNat <> beq_nat syndef
+R5722:5726 FSPL.Imp AExp aeval def
+R5711:5715 FSPL.Imp AExp aeval def
+R5736:5738 FSPL.Imp AExp BLe constr
+R5751:5757 FSPL.SfLib <> ble_nat def
+R5771:5775 FSPL.Imp AExp aeval def
+R5760:5764 FSPL.Imp AExp aeval def
+R5785:5788 FSPL.Imp AExp BNot constr
+R5800:5803 Coq.Init.Datatypes <> negb def
+R5806:5810 FSPL.Imp <> beval def
+R5820:5823 FSPL.Imp AExp BAnd constr
+R5835:5838 Coq.Init.Datatypes <> andb def
+R5852:5856 FSPL.Imp <> beval def
+R5841:5845 FSPL.Imp <> beval def
+def 6255:6268 AExp optimize_0plus
+R6273:6276 FSPL.Imp AExp aexp ind
+R6281:6284 FSPL.Imp AExp aexp ind
+R6297:6297 FSPL.Imp <> a var
+R6308:6311 FSPL.Imp AExp ANum constr
+R6324:6327 FSPL.Imp AExp ANum constr
+R6335:6339 FSPL.Imp AExp APlus constr
+R6342:6345 FSPL.Imp AExp ANum constr
+R6362:6375 FSPL.Imp <> optimize_0plus def
+R6384:6388 FSPL.Imp AExp APlus constr
+R6405:6409 FSPL.Imp AExp APlus constr
+R6432:6445 FSPL.Imp <> optimize_0plus def
+R6412:6425 FSPL.Imp <> optimize_0plus def
+R6455:6460 FSPL.Imp AExp AMinus constr
+R6477:6482 FSPL.Imp AExp AMinus constr
+R6505:6518 FSPL.Imp <> optimize_0plus def
+R6485:6498 FSPL.Imp <> optimize_0plus def
+R6528:6532 FSPL.Imp AExp AMult constr
+R6549:6553 FSPL.Imp AExp AMult constr
+R6576:6589 FSPL.Imp <> optimize_0plus def
+R6556:6569 FSPL.Imp <> optimize_0plus def
+def 6742:6760 AExp test_optimize_0plus
+R6894:6898 Coq.Init.Logic <> :type_scope:x_'='_x not
+R6765:6778 FSPL.Imp AExp optimize_0plus def
+R6781:6785 FSPL.Imp AExp APlus constr
+R6821:6825 FSPL.Imp AExp APlus constr
+R6868:6872 FSPL.Imp AExp APlus constr
+R6884:6887 FSPL.Imp AExp ANum constr
+R6875:6878 FSPL.Imp AExp ANum constr
+R6828:6831 FSPL.Imp AExp ANum constr
+R6788:6791 FSPL.Imp AExp ANum constr
+R6899:6903 FSPL.Imp AExp APlus constr
+R6915:6918 FSPL.Imp AExp ANum constr
+R6906:6909 FSPL.Imp AExp ANum constr
+prf 7138:7157 AExp optimize_0plus_sound
+R7196:7198 Coq.Init.Logic <> :type_scope:x_'='_x not
+R7172:7176 FSPL.Imp AExp aeval def
+R7179:7192 FSPL.Imp AExp optimize_0plus def
+R7194:7194 FSPL.Imp <> a var
+R7199:7203 FSPL.Imp AExp aeval def
+R7205:7205 FSPL.Imp <> a var
+prf 9311:9315 AExp ev100
+R9319:9320 FSPL.SfLib <> ev ind
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9350:9354 FSPL.SfLib <> ev_SS constr
+R9449:9452 FSPL.SfLib <> ev_0 constr
+R9449:9452 FSPL.SfLib <> ev_0 constr
+prf 9680:9685 AExp ev100'
+R9689:9690 FSPL.SfLib <> ev ind
+R9720:9723 FSPL.SfLib <> ev_0 constr
+R9720:9723 FSPL.SfLib <> ev_0 constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9787:9791 FSPL.SfLib <> ev_SS constr
+R9801:9804 FSPL.SfLib <> ev_0 constr
+R9801:9804 FSPL.SfLib <> ev_0 constr
+prf 10455:10460 AExp silly1
+R10483:10485 Coq.Init.Logic <> :type_scope:x_'='_x not
+R10475:10479 FSPL.Imp AExp aeval def
+R10481:10482 FSPL.Imp <> ae var
+R10486:10490 FSPL.Imp AExp aeval def
+R10492:10493 FSPL.Imp <> ae var
+prf 10569:10574 AExp silly2
+R10598:10601 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R10602:10602 FSPL.Imp <> P var
+R10597:10597 FSPL.Imp <> P var
+prf 11318:11320 AExp foo
+R11345:11347 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11334:11340 FSPL.SfLib <> ble_nat def
+R11344:11344 FSPL.Imp <> n var
+R11348:11351 Coq.Init.Datatypes <> true constr
+prf 11598:11601 AExp foo'
+R11626:11628 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11615:11621 FSPL.SfLib <> ble_nat def
+R11625:11625 FSPL.Imp <> n var
+R11629:11632 Coq.Init.Datatypes <> true constr
+prf 11963:11983 AExp optimize_0plus_sound'
+R12022:12024 Coq.Init.Logic <> :type_scope:x_'='_x not
+R11998:12002 FSPL.Imp AExp aeval def
+R12005:12018 FSPL.Imp AExp optimize_0plus def
+R12020:12020 FSPL.Imp <> a var
+R12025:12029 FSPL.Imp AExp aeval def
+R12031:12031 FSPL.Imp <> a var
+prf 14811:14832 AExp optimize_0plus_sound''
+R14871:14873 Coq.Init.Logic <> :type_scope:x_'='_x not
+R14847:14851 FSPL.Imp AExp aeval def
+R14854:14867 FSPL.Imp AExp optimize_0plus def
+R14869:14869 FSPL.Imp <> a var
+R14874:14878 FSPL.Imp AExp aeval def
+R14880:14880 FSPL.Imp <> a var
+prf 19407:19429 AExp optimize_0plus_sound'''
+R19468:19470 Coq.Init.Logic <> :type_scope:x_'='_x not
+R19444:19448 FSPL.Imp AExp aeval def
+R19451:19464 FSPL.Imp AExp optimize_0plus def
+R19466:19466 FSPL.Imp <> a var
+R19471:19475 FSPL.Imp AExp aeval def
+R19477:19477 FSPL.Imp <> a var
+def 20712:20727 AExp optimize_0plus_b
+R20734:20737 FSPL.Imp AExp bexp ind
+R20742:20745 FSPL.Imp AExp bexp ind
+R20771:20775 FSPL.SfLib <> admit prfax
+prf 20788:20809 AExp optimize_0plus_b_sound
+R20851:20853 Coq.Init.Logic <> :type_scope:x_'='_x not
+R20825:20829 FSPL.Imp AExp beval def
+R20832:20847 FSPL.Imp AExp optimize_0plus_b def
+R20849:20849 FSPL.Imp <> b var
+R20854:20858 FSPL.Imp AExp beval def
+R20860:20860 FSPL.Imp <> b var
+def 22002:22025 AExp silly_presburger_example
+R22078:22083 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R22085:22088 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R22084:22084 FSPL.Imp <> m var
+R22089:22089 FSPL.Imp <> p var
+R22061:22064 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R22052:22055 Coq.Init.Peano <> :nat_scope:x_'<='_x not
+R22048:22050 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R22047:22047 FSPL.Imp <> m var
+R22051:22051 FSPL.Imp <> n var
+R22057:22059 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R22056:22056 FSPL.Imp <> n var
+R22060:22060 FSPL.Imp <> o var
+R22070:22072 Coq.Init.Logic <> :type_scope:x_'='_x not
+R22066:22068 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R22065:22065 FSPL.Imp <> o var
+R22074:22076 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R22073:22073 FSPL.Imp <> p var
+mod 24166:24181 <> AExp.aevalR_first_try
+ind 24195:24200 AExp.aevalR_first_try aevalR
+constr 24231:24236 AExp.aevalR_first_try E_ANum
+constr 24286:24292 AExp.aevalR_first_try E_APlus
+constr 24416:24423 AExp.aevalR_first_try E_AMinus
+constr 24547:24553 AExp.aevalR_first_try E_AMult
+R24208:24211 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24215:24218 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24212:24214 Coq.Init.Datatypes <> nat ind
+R24204:24207 FSPL.Imp AExp aexp ind
+R24252:24254 Coq.Init.Datatypes <> nat ind
+R24264:24269 FSPL.Imp <> aevalR ind
+R24280:24280 FSPL.Imp <> n var
+R24272:24275 FSPL.Imp AExp ANum constr
+R24277:24277 FSPL.Imp <> n var
+R24311:24314 FSPL.Imp AExp aexp ind
+R24325:24327 Coq.Init.Datatypes <> nat ind
+R24349:24358 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24371:24380 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24381:24386 FSPL.Imp <> aevalR ind
+R24405:24407 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R24403:24404 FSPL.Imp <> n1 var
+R24408:24409 FSPL.Imp <> n2 var
+R24389:24393 FSPL.Imp AExp APlus constr
+R24398:24399 FSPL.Imp <> e2 var
+R24395:24396 FSPL.Imp <> e1 var
+R24359:24364 FSPL.Imp <> aevalR ind
+R24369:24370 FSPL.Imp <> n2 var
+R24366:24367 FSPL.Imp <> e2 var
+R24337:24342 FSPL.Imp <> aevalR ind
+R24347:24348 FSPL.Imp <> n1 var
+R24344:24345 FSPL.Imp <> e1 var
+R24441:24444 FSPL.Imp AExp aexp ind
+R24455:24457 Coq.Init.Datatypes <> nat ind
+R24479:24488 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24501:24510 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24511:24516 FSPL.Imp <> aevalR ind
+R24536:24538 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R24534:24535 FSPL.Imp <> n1 var
+R24539:24540 FSPL.Imp <> n2 var
+R24519:24524 FSPL.Imp AExp AMinus constr
+R24529:24530 FSPL.Imp <> e2 var
+R24526:24527 FSPL.Imp <> e1 var
+R24489:24494 FSPL.Imp <> aevalR ind
+R24499:24500 FSPL.Imp <> n2 var
+R24496:24497 FSPL.Imp <> e2 var
+R24467:24472 FSPL.Imp <> aevalR ind
+R24477:24478 FSPL.Imp <> n1 var
+R24474:24475 FSPL.Imp <> e1 var
+R24572:24575 FSPL.Imp AExp aexp ind
+R24586:24588 Coq.Init.Datatypes <> nat ind
+R24610:24619 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24632:24641 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R24642:24647 FSPL.Imp <> aevalR ind
+R24666:24668 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R24664:24665 FSPL.Imp <> n1 var
+R24669:24670 FSPL.Imp <> n2 var
+R24650:24654 FSPL.Imp AExp AMult constr
+R24659:24660 FSPL.Imp <> e2 var
+R24656:24657 FSPL.Imp <> e1 var
+R24620:24625 FSPL.Imp <> aevalR ind
+R24630:24631 FSPL.Imp <> n2 var
+R24627:24628 FSPL.Imp <> e2 var
+R24598:24603 FSPL.Imp <> aevalR ind
+R24608:24609 FSPL.Imp <> n1 var
+R24605:24606 FSPL.Imp <> e1 var
+R25229:25234 FSPL.Imp AExp.aevalR_first_try aevalR ind
+not 25214:25214 AExp.aevalR_first_try :type_scope:x_'||'_x
+R25260:25275 FSPL.Imp AExp.aevalR_first_try <> mod
+ind 25779:25784 AExp aevalR
+constr 25815:25820 AExp E_ANum
+constr 25864:25870 AExp E_APlus
+constr 25975:25982 AExp E_AMinus
+constr 26088:26094 AExp E_AMult
+R25792:25795 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25799:25802 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25796:25798 Coq.Init.Datatypes <> nat ind
+R25788:25791 FSPL.Imp AExp aexp ind
+R26220:26225 FSPL.Imp <> aevalR ind
+R25834:25836 Coq.Init.Datatypes <> nat ind
+R25846:25846 FSPL.Imp AExp :type_scope:x_'||'_x not
+R25853:25857 FSPL.Imp AExp :type_scope:x_'||'_x not
+R25847:25850 FSPL.Imp AExp ANum constr
+R25852:25852 FSPL.Imp <> n var
+R25858:25858 FSPL.Imp <> n var
+R25889:25892 FSPL.Imp AExp aexp ind
+R25904:25906 Coq.Init.Datatypes <> nat ind
+R25916:25916 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25925:25929 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25930:25930 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25939:25943 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R25944:25944 FSPL.Imp AExp :type_scope:x_'||'_x not
+R25956:25961 FSPL.Imp AExp :type_scope:x_'||'_x not
+R25969:25969 FSPL.Imp AExp :type_scope:x_'||'_x not
+R25945:25949 FSPL.Imp AExp APlus constr
+R25954:25955 FSPL.Imp <> e2 var
+R25951:25952 FSPL.Imp <> e1 var
+R25964:25966 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R25962:25963 FSPL.Imp <> n1 var
+R25967:25968 FSPL.Imp <> n2 var
+R25933:25936 FSPL.Imp AExp :type_scope:x_'||'_x not
+R25931:25932 FSPL.Imp <> e2 var
+R25937:25938 FSPL.Imp <> n2 var
+R25919:25922 FSPL.Imp AExp :type_scope:x_'||'_x not
+R25917:25918 FSPL.Imp <> e1 var
+R25923:25924 FSPL.Imp <> n1 var
+R26001:26004 FSPL.Imp AExp aexp ind
+R26016:26018 Coq.Init.Datatypes <> nat ind
+R26028:26028 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26037:26041 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26042:26042 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26051:26055 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26056:26056 FSPL.Imp AExp :type_scope:x_'||'_x not
+R26069:26074 FSPL.Imp AExp :type_scope:x_'||'_x not
+R26082:26082 FSPL.Imp AExp :type_scope:x_'||'_x not
+R26057:26062 FSPL.Imp AExp AMinus constr
+R26067:26068 FSPL.Imp <> e2 var
+R26064:26065 FSPL.Imp <> e1 var
+R26077:26079 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R26075:26076 FSPL.Imp <> n1 var
+R26080:26081 FSPL.Imp <> n2 var
+R26045:26048 FSPL.Imp AExp :type_scope:x_'||'_x not
+R26043:26044 FSPL.Imp <> e2 var
+R26049:26050 FSPL.Imp <> n2 var
+R26031:26034 FSPL.Imp AExp :type_scope:x_'||'_x not
+R26029:26030 FSPL.Imp <> e1 var
+R26035:26036 FSPL.Imp <> n1 var
+R26114:26117 FSPL.Imp AExp aexp ind
+R26129:26131 Coq.Init.Datatypes <> nat ind
+R26141:26141 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26150:26154 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26155:26155 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26164:26168 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R26169:26169 FSPL.Imp AExp :type_scope:x_'||'_x not
+R26181:26186 FSPL.Imp AExp :type_scope:x_'||'_x not
+R26194:26194 FSPL.Imp AExp :type_scope:x_'||'_x not
+R26170:26174 FSPL.Imp AExp AMult constr
+R26179:26180 FSPL.Imp <> e2 var
+R26176:26177 FSPL.Imp <> e1 var
+R26189:26191 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R26187:26188 FSPL.Imp <> n1 var
+R26192:26193 FSPL.Imp <> n2 var
+R26158:26161 FSPL.Imp AExp :type_scope:x_'||'_x not
+R26156:26157 FSPL.Imp <> e2 var
+R26162:26163 FSPL.Imp <> n2 var
+R26144:26147 FSPL.Imp AExp :type_scope:x_'||'_x not
+R26142:26143 FSPL.Imp <> e1 var
+R26148:26149 FSPL.Imp <> n1 var
+R26220:26225 FSPL.Imp AExp aevalR ind
+not 26205:26205 AExp :type_scope:x_'||'_x
+prf 29270:29285 AExp aeval_iff_aevalR
+R29303:29303 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R29310:29315 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R29305:29308 FSPL.Imp AExp :type_scope:x_'||'_x not
+R29304:29304 FSPL.Imp <> a var
+R29309:29309 FSPL.Imp <> n var
+R29323:29325 Coq.Init.Logic <> :type_scope:x_'='_x not
+R29316:29320 FSPL.Imp AExp aeval def
+R29322:29322 FSPL.Imp <> a var
+R29326:29326 FSPL.Imp <> n var
+R29815:29820 FSPL.Imp AExp E_ANum constr
+R29815:29820 FSPL.Imp AExp E_ANum constr
+R29852:29858 FSPL.Imp AExp E_APlus constr
+R29852:29858 FSPL.Imp AExp E_APlus constr
+R29953:29960 FSPL.Imp AExp E_AMinus constr
+R29953:29960 FSPL.Imp AExp E_AMinus constr
+R30054:30060 FSPL.Imp AExp E_AMult constr
+R30054:30060 FSPL.Imp AExp E_AMult constr
+prf 30605:30621 AExp aeval_iff_aevalR'
+R30639:30639 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R30646:30651 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R30641:30644 FSPL.Imp AExp :type_scope:x_'||'_x not
+R30640:30640 FSPL.Imp <> a var
+R30645:30645 FSPL.Imp <> n var
+R30659:30661 Coq.Init.Logic <> :type_scope:x_'='_x not
+R30652:30656 FSPL.Imp AExp aeval def
+R30658:30658 FSPL.Imp <> a var
+R30662:30662 FSPL.Imp <> n var
+R31127:31130 FSPL.Imp AExp <> mod
+mod 31954:31968 <> aevalR_division
+ind 32107:32110 aevalR_division aexp
+constr 32126:32129 aevalR_division ANum
+constr 32149:32153 aevalR_division APlus
+constr 32182:32187 aevalR_division AMinus
+constr 32216:32220 aevalR_division AMult
+constr 32249:32252 aevalR_division ADiv
+R32136:32139 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32140:32143 FSPL.Imp <> aexp ind
+R32133:32135 Coq.Init.Datatypes <> nat ind
+R32161:32164 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32169:32172 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32173:32176 FSPL.Imp <> aexp ind
+R32165:32168 FSPL.Imp <> aexp ind
+R32157:32160 FSPL.Imp <> aexp ind
+R32195:32198 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32203:32206 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32207:32210 FSPL.Imp <> aexp ind
+R32199:32202 FSPL.Imp <> aexp ind
+R32191:32194 FSPL.Imp <> aexp ind
+R32228:32231 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32236:32239 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32240:32243 FSPL.Imp <> aexp ind
+R32232:32235 FSPL.Imp <> aexp ind
+R32224:32227 FSPL.Imp <> aexp ind
+R32260:32263 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32268:32271 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32272:32275 FSPL.Imp <> aexp ind
+R32264:32267 FSPL.Imp <> aexp ind
+R32256:32259 FSPL.Imp <> aexp ind
+ind 32532:32537 aevalR_division aevalR
+constr 32568:32573 aevalR_division E_ANum
+constr 32617:32623 aevalR_division E_APlus
+constr 32728:32735 aevalR_division E_AMinus
+constr 32841:32847 aevalR_division E_AMult
+constr 32953:32958 aevalR_division E_ADiv
+R32545:32548 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32552:32555 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32549:32551 Coq.Init.Datatypes <> nat ind
+R32541:32544 FSPL.Imp aevalR_division aexp ind
+R33097:33102 FSPL.Imp <> aevalR ind
+R32587:32589 Coq.Init.Datatypes <> nat ind
+R32599:32599 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32606:32610 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32600:32603 FSPL.Imp aevalR_division ANum constr
+R32605:32605 FSPL.Imp <> n var
+R32611:32611 FSPL.Imp <> n var
+R32642:32645 FSPL.Imp aevalR_division aexp ind
+R32657:32659 Coq.Init.Datatypes <> nat ind
+R32669:32669 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32678:32682 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32683:32683 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32692:32696 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32697:32697 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32709:32714 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32722:32722 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32698:32702 FSPL.Imp aevalR_division APlus constr
+R32707:32708 FSPL.Imp <> a2 var
+R32704:32705 FSPL.Imp <> a1 var
+R32717:32719 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R32715:32716 FSPL.Imp <> n1 var
+R32720:32721 FSPL.Imp <> n2 var
+R32686:32689 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32684:32685 FSPL.Imp <> a2 var
+R32690:32691 FSPL.Imp <> n2 var
+R32672:32675 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32670:32671 FSPL.Imp <> a1 var
+R32676:32677 FSPL.Imp <> n1 var
+R32754:32757 FSPL.Imp aevalR_division aexp ind
+R32769:32771 Coq.Init.Datatypes <> nat ind
+R32781:32781 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32790:32794 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32795:32795 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32804:32808 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32809:32809 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32822:32827 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32835:32835 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32810:32815 FSPL.Imp aevalR_division AMinus constr
+R32820:32821 FSPL.Imp <> a2 var
+R32817:32818 FSPL.Imp <> a1 var
+R32830:32832 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R32828:32829 FSPL.Imp <> n1 var
+R32833:32834 FSPL.Imp <> n2 var
+R32798:32801 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32796:32797 FSPL.Imp <> a2 var
+R32802:32803 FSPL.Imp <> n2 var
+R32784:32787 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32782:32783 FSPL.Imp <> a1 var
+R32788:32789 FSPL.Imp <> n1 var
+R32867:32870 FSPL.Imp aevalR_division aexp ind
+R32882:32884 Coq.Init.Datatypes <> nat ind
+R32894:32894 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32903:32907 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32908:32908 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32917:32921 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R32922:32922 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32934:32939 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32947:32947 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32923:32927 FSPL.Imp aevalR_division AMult constr
+R32932:32933 FSPL.Imp <> a2 var
+R32929:32930 FSPL.Imp <> a1 var
+R32942:32944 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R32940:32941 FSPL.Imp <> n1 var
+R32945:32946 FSPL.Imp <> n2 var
+R32911:32914 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32909:32910 FSPL.Imp <> a2 var
+R32915:32916 FSPL.Imp <> n2 var
+R32897:32900 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R32895:32896 FSPL.Imp <> a1 var
+R32901:32902 FSPL.Imp <> n1 var
+R32978:32981 FSPL.Imp aevalR_division aexp ind
+R32995:32997 Coq.Init.Datatypes <> nat ind
+R33007:33007 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33016:33020 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33021:33021 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33030:33034 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33035:33035 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33051:33055 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33056:33056 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R33067:33071 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R33057:33060 FSPL.Imp aevalR_division ADiv constr
+R33065:33066 FSPL.Imp <> a2 var
+R33062:33063 FSPL.Imp <> a1 var
+R33072:33073 FSPL.Imp <> n3 var
+R33046:33048 Coq.Init.Logic <> :type_scope:x_'='_x not
+R33036:33039 Coq.Init.Peano <> mult syndef
+R33044:33045 FSPL.Imp <> n3 var
+R33041:33042 FSPL.Imp <> n2 var
+R33049:33050 FSPL.Imp <> n1 var
+R33024:33027 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R33022:33023 FSPL.Imp <> a2 var
+R33028:33029 FSPL.Imp <> n2 var
+R33010:33013 FSPL.Imp aevalR_division :type_scope:x_'||'_x not
+R33008:33009 FSPL.Imp <> a1 var
+R33014:33015 FSPL.Imp <> n1 var
+R33097:33102 FSPL.Imp aevalR_division aevalR ind
+not 33082:33082 aevalR_division :type_scope:x_'||'_x
+R33128:33142 FSPL.Imp aevalR_division <> mod
+mod 33152:33166 <> aevalR_extended
+ind 33305:33308 aevalR_extended aexp
+constr 33324:33327 aevalR_extended AAny
+constr 33374:33377 aevalR_extended ANum
+constr 33397:33401 aevalR_extended APlus
+constr 33430:33435 aevalR_extended AMinus
+constr 33464:33468 aevalR_extended AMult
+R33332:33335 FSPL.Imp <> aexp ind
+R33384:33387 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33388:33391 FSPL.Imp <> aexp ind
+R33381:33383 Coq.Init.Datatypes <> nat ind
+R33409:33412 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33417:33420 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33421:33424 FSPL.Imp <> aexp ind
+R33413:33416 FSPL.Imp <> aexp ind
+R33405:33408 FSPL.Imp <> aexp ind
+R33443:33446 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33451:33454 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33455:33458 FSPL.Imp <> aexp ind
+R33447:33450 FSPL.Imp <> aexp ind
+R33439:33442 FSPL.Imp <> aexp ind
+R33476:33479 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33484:33487 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33488:33491 FSPL.Imp <> aexp ind
+R33480:33483 FSPL.Imp <> aexp ind
+R33472:33475 FSPL.Imp <> aexp ind
+ind 33684:33689 aevalR_extended aevalR
+constr 33720:33724 aevalR_extended E_Any
+constr 33795:33800 aevalR_extended E_ANum
+constr 33844:33850 aevalR_extended E_APlus
+constr 33955:33962 aevalR_extended E_AMinus
+constr 34068:34074 aevalR_extended E_AMult
+R33697:33700 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33704:33707 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33701:33703 Coq.Init.Datatypes <> nat ind
+R33693:33696 FSPL.Imp aevalR_extended aexp ind
+R34198:34203 FSPL.Imp <> aevalR ind
+R33738:33740 Coq.Init.Datatypes <> nat ind
+R33754:33757 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R33750:33753 FSPL.Imp aevalR_extended AAny constr
+R33758:33758 FSPL.Imp <> n var
+R33814:33816 Coq.Init.Datatypes <> nat ind
+R33826:33826 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R33833:33837 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R33827:33830 FSPL.Imp aevalR_extended ANum constr
+R33832:33832 FSPL.Imp <> n var
+R33838:33838 FSPL.Imp <> n var
+R33869:33872 FSPL.Imp aevalR_extended aexp ind
+R33884:33886 Coq.Init.Datatypes <> nat ind
+R33896:33896 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33905:33909 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33910:33910 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33919:33923 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R33924:33924 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R33936:33941 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R33949:33949 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R33925:33929 FSPL.Imp aevalR_extended APlus constr
+R33934:33935 FSPL.Imp <> a2 var
+R33931:33932 FSPL.Imp <> a1 var
+R33944:33946 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R33942:33943 FSPL.Imp <> n1 var
+R33947:33948 FSPL.Imp <> n2 var
+R33913:33916 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R33911:33912 FSPL.Imp <> a2 var
+R33917:33918 FSPL.Imp <> n2 var
+R33899:33902 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R33897:33898 FSPL.Imp <> a1 var
+R33903:33904 FSPL.Imp <> n1 var
+R33981:33984 FSPL.Imp aevalR_extended aexp ind
+R33996:33998 Coq.Init.Datatypes <> nat ind
+R34008:34008 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R34017:34021 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R34022:34022 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R34031:34035 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R34036:34036 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R34049:34054 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R34062:34062 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R34037:34042 FSPL.Imp aevalR_extended AMinus constr
+R34047:34048 FSPL.Imp <> a2 var
+R34044:34045 FSPL.Imp <> a1 var
+R34057:34059 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R34055:34056 FSPL.Imp <> n1 var
+R34060:34061 FSPL.Imp <> n2 var
+R34025:34028 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R34023:34024 FSPL.Imp <> a2 var
+R34029:34030 FSPL.Imp <> n2 var
+R34011:34014 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R34009:34010 FSPL.Imp <> a1 var
+R34015:34016 FSPL.Imp <> n1 var
+R34094:34097 FSPL.Imp aevalR_extended aexp ind
+R34109:34111 Coq.Init.Datatypes <> nat ind
+R34121:34121 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R34130:34134 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R34135:34135 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R34144:34148 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R34149:34149 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R34161:34166 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R34174:34174 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R34150:34154 FSPL.Imp aevalR_extended AMult constr
+R34159:34160 FSPL.Imp <> a2 var
+R34156:34157 FSPL.Imp <> a1 var
+R34169:34171 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R34167:34168 FSPL.Imp <> n1 var
+R34172:34173 FSPL.Imp <> n2 var
+R34138:34141 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R34136:34137 FSPL.Imp <> a2 var
+R34142:34143 FSPL.Imp <> n2 var
+R34124:34127 FSPL.Imp aevalR_extended :type_scope:x_'||'_x not
+R34122:34123 FSPL.Imp <> a1 var
+R34128:34129 FSPL.Imp <> n1 var
+R34198:34203 FSPL.Imp aevalR_extended aevalR ind
+not 34183:34183 aevalR_extended :type_scope:x_'||'_x
+R34229:34243 FSPL.Imp aevalR_extended <> mod
+mod 35075:35076 <> Id
+ind 35265:35266 Id id
+constr 35280:35281 Id Id
+R35288:35291 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R35292:35293 FSPL.Imp <> id ind
+R35285:35287 Coq.Init.Datatypes <> nat ind
+prf 35305:35313 Id eq_id_dec
+R35334:35335 FSPL.Imp Id id ind
+R35338:35338 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35348:35352 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35363:35363 Coq.Init.Specif <> :type_scope:'{'_x_'}'_'+'_'{'_x_'}' not
+R35342:35344 Coq.Init.Logic <> :type_scope:x_'='_x not
+R35339:35341 FSPL.Imp <> id1 var
+R35345:35347 FSPL.Imp <> id2 var
+R35356:35359 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R35353:35355 FSPL.Imp <> id1 var
+R35360:35362 FSPL.Imp <> id2 var
+R35452:35461 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+R35452:35461 Coq.Arith.Peano_dec <> eq_nat_dec syndef
+prf 35735:35739 Id eq_id
+R35766:35766 FSPL.Imp <> T var
+R35785:35785 Coq.Init.Logic <> :type_scope:x_'='_x not
+R35816:35819 Coq.Init.Logic <> :type_scope:x_'='_x not
+R35789:35797 FSPL.Imp Id eq_id_dec thm
+R35801:35801 FSPL.Imp <> x var
+R35799:35799 FSPL.Imp <> x var
+R35815:35815 FSPL.Imp <> q var
+R35808:35808 FSPL.Imp <> p var
+R35820:35820 FSPL.Imp <> p var
+R35854:35862 FSPL.Imp Id eq_id_dec thm
+R35854:35862 FSPL.Imp Id eq_id_dec thm
+R35946:35963 FSPL.SfLib <> ex_falso_quodlibet thm
+R35946:35963 FSPL.SfLib <> ex_falso_quodlibet thm
+prf 36049:36054 Id neq_id
+R36083:36083 FSPL.Imp <> T var
+R36093:36112 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R36113:36113 Coq.Init.Logic <> :type_scope:x_'='_x not
+R36144:36147 Coq.Init.Logic <> :type_scope:x_'='_x not
+R36117:36125 FSPL.Imp Id eq_id_dec thm
+R36129:36129 FSPL.Imp <> y var
+R36127:36127 FSPL.Imp <> x var
+R36143:36143 FSPL.Imp <> q var
+R36136:36136 FSPL.Imp <> p var
+R36148:36148 FSPL.Imp <> q var
+R36088:36091 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R36087:36087 FSPL.Imp <> x var
+R36092:36092 FSPL.Imp <> y var
+R36206:36207 FSPL.Imp Id <> mod
+def 36926:36930 <> state
+R36937:36940 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R36941:36943 Coq.Init.Datatypes <> nat ind
+R36935:36936 FSPL.SfLib <> id ind
+def 36958:36968 <> empty_state
+R36972:36976 FSPL.Imp <> state def
+def 37007:37012 <> update
+R37020:37024 FSPL.Imp <> state def
+R37032:37033 FSPL.SfLib <> id ind
+R37041:37043 Coq.Init.Datatypes <> nat ind
+R37048:37052 FSPL.Imp <> state def
+R37072:37080 FSPL.SfLib <> eq_id_dec thm
+R37084:37085 FSPL.Imp <> x' var
+R37082:37082 FSPL.Imp <> x var
+R37099:37100 FSPL.Imp <> st var
+R37102:37103 FSPL.Imp <> x' var
+R37092:37092 FSPL.Imp <> n var
+prf 37248:37256 <> update_eq
+R37294:37296 Coq.Init.Logic <> :type_scope:x_'='_x not
+R37278:37283 FSPL.Imp <> update def
+R37290:37290 FSPL.Imp <> n var
+R37288:37288 FSPL.Imp <> x var
+R37285:37286 FSPL.Imp <> st var
+R37293:37293 FSPL.Imp <> x var
+R37297:37297 FSPL.Imp <> n var
+prf 37400:37409 <> update_neq
+R37442:37471 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R37491:37494 Coq.Init.Logic <> :type_scope:x_'='_x not
+R37500:37500 Coq.Init.Logic <> :type_scope:x_'='_x not
+R37473:37478 FSPL.Imp <> update def
+R37486:37486 FSPL.Imp <> n var
+R37483:37484 FSPL.Imp <> x2 var
+R37480:37481 FSPL.Imp <> st var
+R37489:37490 FSPL.Imp <> x1 var
+R37495:37496 FSPL.Imp <> st var
+R37498:37499 FSPL.Imp <> x1 var
+R37436:37439 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R37434:37435 FSPL.Imp <> x2 var
+R37440:37441 FSPL.Imp <> x1 var
+prf 37718:37731 <> update_example
+R37745:37747 Coq.Init.Datatypes <> nat ind
+R37789:37791 Coq.Init.Logic <> :type_scope:x_'='_x not
+R37754:37759 FSPL.Imp <> update def
+R37780:37780 FSPL.Imp <> n var
+R37774:37775 FSPL.SfLib <> Id constr
+R37761:37771 FSPL.Imp <> empty_state def
+R37784:37785 FSPL.SfLib <> Id constr
+prf 37898:37910 <> update_shadow
+R37939:37943 FSPL.Imp <> state def
+R37986:37988 Coq.Init.Logic <> :type_scope:x_'='_x not
+R37951:37956 FSPL.Imp <> update def
+R37980:37981 FSPL.Imp <> n2 var
+R37977:37978 FSPL.Imp <> x2 var
+R37960:37965 FSPL.Imp <> update def
+R37973:37974 FSPL.Imp <> n1 var
+R37970:37971 FSPL.Imp <> x2 var
+R37967:37968 FSPL.Imp <> st var
+R37984:37985 FSPL.Imp <> x1 var
+R37990:37995 FSPL.Imp <> update def
+R38003:38004 FSPL.Imp <> n2 var
+R38000:38001 FSPL.Imp <> x2 var
+R37997:37998 FSPL.Imp <> st var
+R38007:38008 FSPL.Imp <> x1 var
+prf 38113:38123 <> update_same
+R38149:38153 FSPL.Imp <> state def
+R38169:38174 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R38195:38197 Coq.Init.Logic <> :type_scope:x_'='_x not
+R38176:38181 FSPL.Imp <> update def
+R38189:38190 FSPL.Imp <> n1 var
+R38186:38187 FSPL.Imp <> x1 var
+R38183:38184 FSPL.Imp <> st var
+R38193:38194 FSPL.Imp <> x2 var
+R38198:38199 FSPL.Imp <> st var
+R38201:38202 FSPL.Imp <> x2 var
+R38164:38166 Coq.Init.Logic <> :type_scope:x_'='_x not
+R38159:38160 FSPL.Imp <> st var
+R38162:38163 FSPL.Imp <> x1 var
+R38167:38168 FSPL.Imp <> n1 var
+prf 38310:38323 <> update_permute
+R38363:38369 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R38405:38407 Coq.Init.Logic <> :type_scope:x_'='_x not
+R38371:38376 FSPL.Imp <> update def
+R38399:38400 FSPL.Imp <> n2 var
+R38396:38397 FSPL.Imp <> x1 var
+R38379:38384 FSPL.Imp <> update def
+R38392:38393 FSPL.Imp <> n1 var
+R38389:38390 FSPL.Imp <> x2 var
+R38386:38387 FSPL.Imp <> st var
+R38403:38404 FSPL.Imp <> x3 var
+R38409:38414 FSPL.Imp <> update def
+R38437:38438 FSPL.Imp <> n1 var
+R38434:38435 FSPL.Imp <> x2 var
+R38417:38422 FSPL.Imp <> update def
+R38430:38431 FSPL.Imp <> n2 var
+R38427:38428 FSPL.Imp <> x1 var
+R38424:38425 FSPL.Imp <> st var
+R38441:38442 FSPL.Imp <> x3 var
+R38357:38360 Coq.Init.Logic <> :type_scope:x_'<>'_x not
+R38355:38356 FSPL.Imp <> x2 var
+R38361:38362 FSPL.Imp <> x1 var
+ind 38697:38700 <> aexp
+constr 38716:38719 <> ANum
+constr 38739:38741 <> AId
+constr 38792:38796 <> APlus
+constr 38825:38830 <> AMinus
+constr 38859:38863 <> AMult
+R38726:38729 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R38730:38733 FSPL.Imp <> aexp ind
+R38723:38725 Coq.Init.Datatypes <> nat ind
+R38747:38750 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R38751:38754 FSPL.Imp <> aexp ind
+R38745:38746 FSPL.SfLib <> id ind
+R38804:38807 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R38812:38815 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R38816:38819 FSPL.Imp <> aexp ind
+R38808:38811 FSPL.Imp <> aexp ind
+R38800:38803 FSPL.Imp <> aexp ind
+R38838:38841 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R38846:38849 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R38850:38853 FSPL.Imp <> aexp ind
+R38842:38845 FSPL.Imp <> aexp ind
+R38834:38837 FSPL.Imp <> aexp ind
+R38871:38874 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R38879:38882 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R38883:38886 FSPL.Imp <> aexp ind
+R38875:38878 FSPL.Imp <> aexp ind
+R38867:38870 FSPL.Imp <> aexp ind
+def 39178:39178 <> X
+R39182:39183 FSPL.SfLib <> id ind
+R39188:39189 FSPL.SfLib <> Id constr
+def 39205:39205 <> Y
+R39209:39210 FSPL.SfLib <> id ind
+R39215:39216 FSPL.SfLib <> Id constr
+def 39232:39232 <> Z
+R39236:39237 FSPL.SfLib <> id ind
+R39242:39243 FSPL.SfLib <> Id constr
+ind 39611:39614 <> bexp
+constr 39630:39634 <> BTrue
+constr 39647:39652 <> BFalse
+constr 39665:39667 <> BEq
+constr 39696:39698 <> BLe
+constr 39727:39730 <> BNot
+constr 39751:39754 <> BAnd
+R39638:39641 FSPL.Imp <> bexp ind
+R39656:39659 FSPL.Imp <> bexp ind
+R39675:39678 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R39683:39686 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R39687:39690 FSPL.Imp <> bexp ind
+R39679:39682 FSPL.Imp <> aexp ind
+R39671:39674 FSPL.Imp <> aexp ind
+R39706:39709 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R39714:39717 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R39718:39721 FSPL.Imp <> bexp ind
+R39710:39713 FSPL.Imp <> aexp ind
+R39702:39705 FSPL.Imp <> aexp ind
+R39738:39741 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R39742:39745 FSPL.Imp <> bexp ind
+R39734:39737 FSPL.Imp <> bexp ind
+R39762:39765 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R39770:39773 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R39774:39777 FSPL.Imp <> bexp ind
+R39766:39769 FSPL.Imp <> bexp ind
+R39758:39761 FSPL.Imp <> bexp ind
+def 40165:40169 <> aeval
+R40177:40181 FSPL.Imp <> state def
+R40189:40192 FSPL.Imp <> aexp ind
+R40197:40199 Coq.Init.Datatypes <> nat ind
+R40212:40212 FSPL.Imp <> a var
+R40223:40226 FSPL.Imp <> ANum constr
+R40239:40241 FSPL.Imp <> AId constr
+R40248:40249 FSPL.Imp <> st var
+R40313:40317 FSPL.Imp <> APlus constr
+R40328:40328 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R40340:40344 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R40356:40356 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R40329:40333 FSPL.Imp <> aeval def
+R40335:40336 FSPL.Imp <> st var
+R40345:40349 FSPL.Imp <> aeval def
+R40351:40352 FSPL.Imp <> st var
+R40362:40367 FSPL.Imp <> AMinus constr
+R40379:40379 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R40391:40395 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R40407:40407 Coq.Init.Peano <> :nat_scope:x_'-'_x not
+R40380:40384 FSPL.Imp <> aeval def
+R40386:40387 FSPL.Imp <> st var
+R40396:40400 FSPL.Imp <> aeval def
+R40402:40403 FSPL.Imp <> st var
+R40413:40417 FSPL.Imp <> AMult constr
+R40428:40428 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R40440:40444 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R40456:40456 Coq.Init.Peano <> :nat_scope:x_'*'_x not
+R40429:40433 FSPL.Imp <> aeval def
+R40435:40436 FSPL.Imp <> st var
+R40445:40449 FSPL.Imp <> aeval def
+R40451:40452 FSPL.Imp <> st var
+def 40475:40479 <> beval
+R40487:40491 FSPL.Imp <> state def
+R40499:40502 FSPL.Imp <> bexp ind
+R40507:40510 Coq.Init.Datatypes <> bool ind
+R40523:40523 FSPL.Imp <> b var
+R40534:40538 FSPL.Imp <> BTrue constr
+R40549:40552 Coq.Init.Datatypes <> true constr
+R40558:40563 FSPL.Imp <> BFalse constr
+R40573:40577 Coq.Init.Datatypes <> false constr
+R40583:40585 FSPL.Imp <> BEq constr
+R40598:40604 Coq.Arith.EqNat <> beq_nat syndef
+R40621:40625 FSPL.Imp <> aeval def
+R40627:40628 FSPL.Imp <> st var
+R40607:40611 FSPL.Imp <> aeval def
+R40613:40614 FSPL.Imp <> st var
+R40638:40640 FSPL.Imp <> BLe constr
+R40653:40659 FSPL.SfLib <> ble_nat def
+R40676:40680 FSPL.Imp <> aeval def
+R40682:40683 FSPL.Imp <> st var
+R40662:40666 FSPL.Imp <> aeval def
+R40668:40669 FSPL.Imp <> st var
+R40693:40696 FSPL.Imp <> BNot constr
+R40708:40711 Coq.Init.Datatypes <> negb def
+R40714:40718 FSPL.Imp <> beval def
+R40720:40721 FSPL.Imp <> st var
+R40731:40734 FSPL.Imp <> BAnd constr
+R40746:40749 Coq.Init.Datatypes <> andb def
+R40766:40770 FSPL.Imp <> beval def
+R40772:40773 FSPL.Imp <> st var
+R40752:40756 FSPL.Imp <> beval def
+R40758:40759 FSPL.Imp <> st var
+def 40795:40799 <> aexp1
+R40885:40889 Coq.Init.Logic <> :type_scope:x_'='_x not
+R40805:40809 FSPL.Imp <> aeval def
+R40845:40849 FSPL.Imp <> APlus constr
+R40861:40865 FSPL.Imp <> AMult constr
+R40876:40879 FSPL.Imp <> ANum constr
+R40868:40870 FSPL.Imp <> AId constr
+R40872:40872 FSPL.Imp <> X def
+R40852:40855 FSPL.Imp <> ANum constr
+R40812:40817 FSPL.Imp <> update def
+R40831:40831 FSPL.Imp <> X def
+R40819:40829 FSPL.Imp <> empty_state def
+def 40928:40932 <> bexp1
+R41019:41023 Coq.Init.Logic <> :type_scope:x_'='_x not
+R40938:40942 FSPL.Imp <> beval def
+R40978:40981 FSPL.Imp <> BAnd constr
+R40990:40993 FSPL.Imp <> BNot constr
+R40996:40998 FSPL.Imp <> BLe constr
+R41009:41012 FSPL.Imp <> ANum constr
+R41001:41003 FSPL.Imp <> AId constr
+R41005:41005 FSPL.Imp <> X def
+R40983:40987 FSPL.Imp <> BTrue constr
+R40945:40950 FSPL.Imp <> update def
+R40964:40964 FSPL.Imp <> X def
+R40952:40962 FSPL.Imp <> empty_state def
+R41024:41027 Coq.Init.Datatypes <> true constr
+ind 41871:41873 <> com
+constr 41889:41893 <> CSkip
+constr 41905:41908 <> CAss
+constr 41934:41937 <> CSeq
+constr 41963:41965 <> CIf
+constr 41999:42004 <> CWhile
+R41897:41899 FSPL.Imp <> com ind
+R41914:41917 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R41922:41925 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R41926:41928 FSPL.Imp <> com ind
+R41918:41921 FSPL.Imp <> aexp ind
+R41912:41913 FSPL.SfLib <> id ind
+R41944:41947 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R41951:41954 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R41955:41957 FSPL.Imp <> com ind
+R41948:41950 FSPL.Imp <> com ind
+R41941:41943 FSPL.Imp <> com ind
+R41973:41976 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R41980:41983 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R41987:41990 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R41991:41993 FSPL.Imp <> com ind
+R41984:41986 FSPL.Imp <> com ind
+R41977:41979 FSPL.Imp <> com ind
+R41969:41972 FSPL.Imp <> bexp ind
+R42012:42015 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R42019:42022 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R42023:42025 FSPL.Imp <> com ind
+R42016:42018 FSPL.Imp <> com ind
+R42008:42011 FSPL.Imp <> bexp ind
+R42676:42680 FSPL.Imp <> CSkip constr
+not 42662:42662 <> ::'SKIP'
+R42710:42713 FSPL.Imp <> CAss constr
+not 42692:42692 <> ::x_'::='_x
+R42761:42764 FSPL.Imp <> CSeq constr
+not 42744:42744 <> ::x_';;'_x
+R42849:42854 FSPL.Imp <> CWhile constr
+not 42818:42818 <> ::'WHILE'_x_'DO'_x_'END'
+R42948:42950 FSPL.Imp <> CIf constr
+not 42906:42906 <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI'
+def 43112:43122 <> fact_in_coq
+R43126:43128 FSPL.Imp <> com ind
+R43146:43150 FSPL.Imp <> ::x_';;'_x not
+R43136:43140 FSPL.Imp <> ::x_'::='_x not
+R43135:43135 FSPL.Imp <> Z def
+R43141:43143 FSPL.Imp <> AId constr
+R43145:43145 FSPL.Imp <> X def
+R43163:43167 FSPL.Imp <> ::x_';;'_x not
+R43152:43156 FSPL.Imp <> ::x_'::='_x not
+R43151:43151 FSPL.Imp <> Y def
+R43157:43160 FSPL.Imp <> ANum constr
+R43168:43173 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R43201:43208 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R43272:43277 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R43174:43177 FSPL.Imp <> BNot constr
+R43180:43182 FSPL.Imp <> BEq constr
+R43193:43196 FSPL.Imp <> ANum constr
+R43185:43187 FSPL.Imp <> AId constr
+R43189:43189 FSPL.Imp <> Z def
+R43236:43242 FSPL.Imp <> ::x_';;'_x not
+R43210:43214 FSPL.Imp <> ::x_'::='_x not
+R43209:43209 FSPL.Imp <> Y def
+R43215:43219 FSPL.Imp <> AMult constr
+R43230:43232 FSPL.Imp <> AId constr
+R43234:43234 FSPL.Imp <> Z def
+R43222:43224 FSPL.Imp <> AId constr
+R43226:43226 FSPL.Imp <> Y def
+R43244:43248 FSPL.Imp <> ::x_'::='_x not
+R43243:43243 FSPL.Imp <> Z def
+R43249:43254 FSPL.Imp <> AMinus constr
+R43265:43268 FSPL.Imp <> ANum constr
+R43257:43259 FSPL.Imp <> AId constr
+R43261:43261 FSPL.Imp <> Z def
+def 43394:43398 <> plus2
+R43402:43404 FSPL.Imp <> com ind
+R43412:43417 FSPL.Imp <> ::x_'::='_x not
+R43440:43440 FSPL.Imp <> ::x_'::='_x not
+R43411:43411 FSPL.Imp <> X def
+R43418:43422 FSPL.Imp <> APlus constr
+R43433:43436 FSPL.Imp <> ANum constr
+R43425:43427 FSPL.Imp <> AId constr
+R43429:43429 FSPL.Imp <> X def
+def 43455:43464 <> XtimesYinZ
+R43468:43470 FSPL.Imp <> com ind
+R43478:43483 FSPL.Imp <> ::x_'::='_x not
+R43505:43505 FSPL.Imp <> ::x_'::='_x not
+R43477:43477 FSPL.Imp <> Z def
+R43484:43488 FSPL.Imp <> AMult constr
+R43499:43501 FSPL.Imp <> AId constr
+R43503:43503 FSPL.Imp <> Y def
+R43491:43493 FSPL.Imp <> AId constr
+R43495:43495 FSPL.Imp <> X def
+def 43520:43539 <> subtract_slowly_body
+R43543:43545 FSPL.Imp <> com ind
+R43581:43586 FSPL.Imp <> ::x_';;'_x not
+R43553:43557 FSPL.Imp <> ::x_'::='_x not
+R43552:43552 FSPL.Imp <> Z def
+R43558:43563 FSPL.Imp <> AMinus constr
+R43574:43577 FSPL.Imp <> ANum constr
+R43566:43568 FSPL.Imp <> AId constr
+R43570:43570 FSPL.Imp <> Z def
+R43588:43592 FSPL.Imp <> ::x_'::='_x not
+R43587:43587 FSPL.Imp <> X def
+R43593:43598 FSPL.Imp <> AMinus constr
+R43609:43612 FSPL.Imp <> ANum constr
+R43601:43603 FSPL.Imp <> AId constr
+R43605:43605 FSPL.Imp <> X def
+def 43649:43663 <> subtract_slowly
+R43667:43669 FSPL.Imp <> com ind
+R43676:43681 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R43709:43716 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R43737:43742 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R43682:43685 FSPL.Imp <> BNot constr
+R43688:43690 FSPL.Imp <> BEq constr
+R43701:43704 FSPL.Imp <> ANum constr
+R43693:43695 FSPL.Imp <> AId constr
+R43697:43697 FSPL.Imp <> X def
+R43717:43736 FSPL.Imp <> subtract_slowly_body def
+def 43757:43780 <> subtract_3_from_5_slowly
+R43784:43786 FSPL.Imp <> com ind
+R43805:43810 FSPL.Imp <> ::x_';;'_x not
+R43794:43798 FSPL.Imp <> ::x_'::='_x not
+R43793:43793 FSPL.Imp <> X def
+R43799:43802 FSPL.Imp <> ANum constr
+R43823:43828 FSPL.Imp <> ::x_';;'_x not
+R43812:43816 FSPL.Imp <> ::x_'::='_x not
+R43811:43811 FSPL.Imp <> Z def
+R43817:43820 FSPL.Imp <> ANum constr
+R43829:43843 FSPL.Imp <> subtract_slowly def
+def 43889:43892 <> loop
+R43896:43898 FSPL.Imp <> com ind
+R43905:43910 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R43916:43923 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R43928:43933 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R43911:43915 FSPL.Imp <> BTrue constr
+R43924:43927 FSPL.Imp <> ::'SKIP' not
+def 44425:44442 <> ceval_fun_no_while
+R44450:44454 FSPL.Imp <> state def
+R44462:44464 FSPL.Imp <> com ind
+R44469:44473 FSPL.Imp <> state def
+R44486:44486 FSPL.Imp <> c var
+R44499:44502 FSPL.Imp <> ::'SKIP' not
+R44515:44516 FSPL.Imp <> st var
+R44525:44529 FSPL.Imp <> ::x_'::='_x not
+R44544:44549 FSPL.Imp <> update def
+R44557:44561 FSPL.Imp <> aeval def
+R44563:44564 FSPL.Imp <> st var
+R44551:44552 FSPL.Imp <> st var
+R44578:44581 FSPL.Imp <> ::x_';;'_x not
+R44607:44624 FSPL.Imp <> ceval_fun_no_while def
+R44626:44627 FSPL.Imp <> st var
+R44643:44660 FSPL.Imp <> ceval_fun_no_while def
+R44662:44664 FSPL.Imp <> st' var
+R44675:44678 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R44680:44685 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R44688:44693 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R44696:44698 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R44715:44719 FSPL.Imp <> beval def
+R44721:44722 FSPL.Imp <> st var
+R44782:44799 FSPL.Imp <> ceval_fun_no_while def
+R44801:44802 FSPL.Imp <> st var
+R44742:44759 FSPL.Imp <> ceval_fun_no_while def
+R44761:44762 FSPL.Imp <> st var
+R44813:44818 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R44820:44823 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R44825:44828 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R44841:44842 FSPL.Imp <> st var
+ind 48829:48833 <> ceval
+constr 48874:48879 <> E_Skip
+constr 48920:48924 <> E_Ass
+constr 49017:49021 <> E_Seq
+constr 49136:49143 <> E_IfTrue
+constr 49270:49278 <> E_IfFalse
+constr 49406:49415 <> E_WhileEnd
+constr 49502:49512 <> E_WhileLoop
+R48840:48843 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R48849:48852 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R48858:48861 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R48853:48857 FSPL.Imp <> state def
+R48844:48848 FSPL.Imp <> state def
+R48837:48839 FSPL.Imp <> com ind
+R49704:49708 FSPL.Imp <> ceval ind
+R48904:48906 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R48909:48912 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R48900:48903 FSPL.Imp <> ::'SKIP' not
+R48907:48908 FSPL.Imp <> st var
+R48913:48914 FSPL.Imp <> st var
+R48968:48977 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R48978:48978 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R48987:48990 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R48993:48997 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49011:49011 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R48980:48984 FSPL.Imp <> ::x_'::='_x not
+R48979:48979 FSPL.Imp <> x var
+R48985:48986 FSPL.Imp <> a1 var
+R48991:48992 FSPL.Imp <> st var
+R48998:49003 FSPL.Imp <> update def
+R49010:49010 FSPL.Imp <> n var
+R49008:49008 FSPL.Imp <> x var
+R49005:49006 FSPL.Imp <> st var
+R48964:48966 Coq.Init.Logic <> :type_scope:x_'='_x not
+R48953:48957 FSPL.Imp <> aeval def
+R48962:48963 FSPL.Imp <> a1 var
+R48959:48960 FSPL.Imp <> st var
+R48967:48967 FSPL.Imp <> n var
+R49072:49081 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R49098:49107 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R49108:49108 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49117:49120 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49123:49126 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49111:49114 FSPL.Imp <> ::x_';;'_x not
+R49109:49110 FSPL.Imp <> c1 var
+R49115:49116 FSPL.Imp <> c2 var
+R49121:49122 FSPL.Imp <> st var
+R49127:49130 FSPL.Imp <> st'' var
+R49084:49086 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49090:49093 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49082:49083 FSPL.Imp <> c2 var
+R49087:49089 FSPL.Imp <> st' var
+R49094:49097 FSPL.Imp <> st'' var
+R49059:49061 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49064:49068 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49057:49058 FSPL.Imp <> c1 var
+R49062:49063 FSPL.Imp <> st var
+R49069:49071 FSPL.Imp <> st' var
+R49193:49202 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R49217:49226 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R49227:49227 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49252:49255 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49258:49261 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49228:49231 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R49233:49238 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R49241:49246 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R49249:49251 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R49232:49232 FSPL.Imp <> b var
+R49239:49240 FSPL.Imp <> c1 var
+R49247:49248 FSPL.Imp <> c2 var
+R49256:49257 FSPL.Imp <> st var
+R49262:49264 FSPL.Imp <> st' var
+R49205:49207 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49210:49213 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49203:49204 FSPL.Imp <> c1 var
+R49208:49209 FSPL.Imp <> st var
+R49214:49216 FSPL.Imp <> st' var
+R49186:49188 Coq.Init.Logic <> :type_scope:x_'='_x not
+R49176:49180 FSPL.Imp <> beval def
+R49185:49185 FSPL.Imp <> b var
+R49182:49183 FSPL.Imp <> st var
+R49189:49192 Coq.Init.Datatypes <> true constr
+R49329:49338 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R49353:49362 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R49363:49363 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49388:49391 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49394:49397 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49364:49367 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R49369:49374 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R49377:49382 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R49385:49387 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R49368:49368 FSPL.Imp <> b var
+R49375:49376 FSPL.Imp <> c1 var
+R49383:49384 FSPL.Imp <> c2 var
+R49392:49393 FSPL.Imp <> st var
+R49398:49400 FSPL.Imp <> st' var
+R49341:49343 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49346:49349 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49339:49340 FSPL.Imp <> c2 var
+R49344:49345 FSPL.Imp <> st var
+R49350:49352 FSPL.Imp <> st' var
+R49321:49323 Coq.Init.Logic <> :type_scope:x_'='_x not
+R49311:49315 FSPL.Imp <> beval def
+R49320:49320 FSPL.Imp <> b var
+R49317:49318 FSPL.Imp <> st var
+R49324:49328 Coq.Init.Datatypes <> false constr
+R49458:49467 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R49468:49468 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49485:49488 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49491:49494 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49469:49474 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R49476:49479 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R49481:49484 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R49475:49475 FSPL.Imp <> b var
+R49480:49480 FSPL.Imp <> c var
+R49489:49490 FSPL.Imp <> st var
+R49495:49496 FSPL.Imp <> st var
+R49450:49452 Coq.Init.Logic <> :type_scope:x_'='_x not
+R49440:49444 FSPL.Imp <> beval def
+R49449:49449 FSPL.Imp <> b var
+R49446:49447 FSPL.Imp <> st var
+R49453:49457 Coq.Init.Datatypes <> false constr
+R49563:49572 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R49586:49595 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R49628:49637 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R49638:49638 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49655:49658 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49661:49664 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49639:49644 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R49646:49649 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R49651:49654 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R49645:49645 FSPL.Imp <> b var
+R49650:49650 FSPL.Imp <> c var
+R49659:49660 FSPL.Imp <> st var
+R49665:49668 FSPL.Imp <> st'' var
+R49596:49596 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49613:49616 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49620:49623 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49597:49602 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R49604:49607 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R49609:49612 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R49603:49603 FSPL.Imp <> b var
+R49608:49608 FSPL.Imp <> c var
+R49617:49619 FSPL.Imp <> st' var
+R49624:49627 FSPL.Imp <> st'' var
+R49574:49576 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49579:49582 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R49573:49573 FSPL.Imp <> c var
+R49577:49578 FSPL.Imp <> st var
+R49583:49585 FSPL.Imp <> st' var
+R49556:49558 Coq.Init.Logic <> :type_scope:x_'='_x not
+R49546:49550 FSPL.Imp <> beval def
+R49555:49555 FSPL.Imp <> b var
+R49552:49553 FSPL.Imp <> st var
+R49559:49562 Coq.Init.Datatypes <> true constr
+R49704:49708 FSPL.Imp <> ceval ind
+not 49679:49679 <> ::x_'/'_x_'||'_x
+def 50230:50243 <> ceval_example1
+R50250:50250 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R50353:50359 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R50371:50378 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R50414:50414 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R50263:50270 FSPL.Imp <> ::x_';;'_x not
+R50252:50256 FSPL.Imp <> ::x_'::='_x not
+R50251:50251 FSPL.Imp <> X def
+R50257:50260 FSPL.Imp <> ANum constr
+R50271:50274 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R50295:50307 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R50320:50332 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R50345:50352 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R50275:50277 FSPL.Imp <> BLe constr
+R50288:50291 FSPL.Imp <> ANum constr
+R50280:50282 FSPL.Imp <> AId constr
+R50284:50284 FSPL.Imp <> X def
+R50309:50313 FSPL.Imp <> ::x_'::='_x not
+R50308:50308 FSPL.Imp <> Y def
+R50314:50317 FSPL.Imp <> ANum constr
+R50334:50338 FSPL.Imp <> ::x_'::='_x not
+R50333:50333 FSPL.Imp <> Z def
+R50339:50342 FSPL.Imp <> ANum constr
+R50360:50370 FSPL.Imp <> empty_state def
+R50379:50384 FSPL.Imp <> update def
+R50411:50411 FSPL.Imp <> Z def
+R50387:50392 FSPL.Imp <> update def
+R50406:50406 FSPL.Imp <> X def
+R50394:50404 FSPL.Imp <> empty_state def
+R50490:50495 FSPL.Imp <> update def
+R50509:50509 FSPL.Imp <> X def
+R50497:50507 FSPL.Imp <> empty_state def
+R50478:50482 FSPL.Imp <> E_Seq constr
+R50490:50495 FSPL.Imp <> update def
+R50509:50509 FSPL.Imp <> X def
+R50497:50507 FSPL.Imp <> empty_state def
+R50478:50482 FSPL.Imp <> E_Seq constr
+R50554:50558 FSPL.Imp <> E_Ass constr
+R50554:50558 FSPL.Imp <> E_Ass constr
+R50605:50613 FSPL.Imp <> E_IfFalse constr
+R50605:50613 FSPL.Imp <> E_IfFalse constr
+R50647:50651 FSPL.Imp <> E_Ass constr
+R50647:50651 FSPL.Imp <> E_Ass constr
+def 50730:50743 <> ceval_example2
+R50750:50750 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R50793:50796 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R50808:50816 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R50865:50865 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R50763:50765 FSPL.Imp <> ::x_';;'_x not
+R50752:50756 FSPL.Imp <> ::x_'::='_x not
+R50751:50751 FSPL.Imp <> X def
+R50757:50760 FSPL.Imp <> ANum constr
+R50778:50780 FSPL.Imp <> ::x_';;'_x not
+R50767:50771 FSPL.Imp <> ::x_'::='_x not
+R50766:50766 FSPL.Imp <> Y def
+R50772:50775 FSPL.Imp <> ANum constr
+R50782:50786 FSPL.Imp <> ::x_'::='_x not
+R50781:50781 FSPL.Imp <> Z def
+R50787:50790 FSPL.Imp <> ANum constr
+R50797:50807 FSPL.Imp <> empty_state def
+R50817:50822 FSPL.Imp <> update def
+R50862:50862 FSPL.Imp <> Z def
+R50825:50830 FSPL.Imp <> update def
+R50857:50857 FSPL.Imp <> Y def
+R50833:50838 FSPL.Imp <> update def
+R50852:50852 FSPL.Imp <> X def
+R50840:50850 FSPL.Imp <> empty_state def
+def 51217:51224 <> pup_to_n
+R51228:51230 FSPL.Imp <> com ind
+R51256:51260 FSPL.SfLib <> admit prfax
+prf 51272:51285 <> pup_to_2_ceval
+R51299:51302 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R51325:51333 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R51291:51298 FSPL.Imp <> pup_to_n def
+R51303:51308 FSPL.Imp <> update def
+R51322:51322 FSPL.Imp <> X def
+R51310:51320 FSPL.Imp <> empty_state def
+R51334:51339 FSPL.Imp <> update def
+R51424:51424 FSPL.Imp <> X def
+R51342:51347 FSPL.Imp <> update def
+R51419:51419 FSPL.Imp <> Y def
+R51350:51355 FSPL.Imp <> update def
+R51414:51414 FSPL.Imp <> X def
+R51358:51363 FSPL.Imp <> update def
+R51409:51409 FSPL.Imp <> Y def
+R51366:51371 FSPL.Imp <> update def
+R51404:51404 FSPL.Imp <> Y def
+R51374:51379 FSPL.Imp <> update def
+R51399:51399 FSPL.Imp <> X def
+R51381:51391 FSPL.Imp <> empty_state def
+prf 52239:52257 <> ceval_deterministic
+R52299:52308 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R52322:52330 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R52334:52336 Coq.Init.Logic <> :type_scope:x_'='_x not
+R52331:52333 FSPL.Imp <> st1 var
+R52337:52339 FSPL.Imp <> st2 var
+R52310:52312 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R52315:52318 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R52309:52309 FSPL.Imp <> c var
+R52313:52314 FSPL.Imp <> st var
+R52319:52321 FSPL.Imp <> st2 var
+R52287:52289 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R52292:52295 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R52286:52286 FSPL.Imp <> c var
+R52290:52291 FSPL.Imp <> st var
+R52296:52298 FSPL.Imp <> st1 var
+R52578:52580 Coq.Init.Logic <> :type_scope:x_'='_x not
+R52578:52580 Coq.Init.Logic <> :type_scope:x_'='_x not
+R53367:53369 Coq.Init.Logic <> :type_scope:x_'='_x not
+R53367:53369 Coq.Init.Logic <> :type_scope:x_'='_x not
+prf 53849:53858 <> plus2_spec
+R53889:53894 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R53912:53917 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R53923:53925 Coq.Init.Logic <> :type_scope:x_'='_x not
+R53918:53920 FSPL.Imp <> st' var
+R53922:53922 FSPL.Imp <> X def
+R53927:53929 Coq.Init.Peano <> :nat_scope:x_'+'_x not
+R53926:53926 FSPL.Imp <> n var
+R53900:53902 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R53905:53908 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R53895:53899 FSPL.Imp <> plus2 def
+R53903:53904 FSPL.Imp <> st var
+R53909:53911 FSPL.Imp <> st' var
+R53885:53887 Coq.Init.Logic <> :type_scope:x_'='_x not
+R53881:53882 FSPL.Imp <> st var
+R53884:53884 FSPL.Imp <> X def
+R53888:53888 FSPL.Imp <> n var
+R54236:54244 FSPL.Imp <> update_eq prfax
+R54236:54244 FSPL.Imp <> update_eq prfax
+prf 54448:54463 <> loop_never_stops
+R54484:54485 Coq.Init.Logic <> :type_scope:'~'_x not
+R54502:54502 Coq.Init.Logic <> :type_scope:'~'_x not
+R54490:54492 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R54495:54498 FSPL.Imp <> ::x_'/'_x_'||'_x not
+R54486:54489 FSPL.Imp <> loop def
+R54493:54494 FSPL.Imp <> st var
+R54499:54501 FSPL.Imp <> st' var
+R54543:54546 FSPL.Imp <> loop def
+R54571:54576 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R54582:54585 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R54590:54593 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R54577:54581 FSPL.Imp <> BTrue constr
+R54586:54589 FSPL.Imp <> ::'SKIP' not
+R54571:54576 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R54582:54585 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R54590:54593 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R54577:54581 FSPL.Imp <> BTrue constr
+R54586:54589 FSPL.Imp <> ::'SKIP' not
+def 54994:55002 <> no_whiles
+R55009:55011 FSPL.Imp <> com ind
+R55016:55019 Coq.Init.Datatypes <> bool ind
+R55032:55032 FSPL.Imp <> c var
+R55043:55046 FSPL.Imp <> ::'SKIP' not
+R55057:55060 Coq.Init.Datatypes <> true constr
+R55067:55071 FSPL.Imp <> ::x_'::='_x not
+R55080:55083 Coq.Init.Datatypes <> true constr
+R55091:55094 FSPL.Imp <> ::x_';;'_x not
+R55102:55105 Coq.Init.Datatypes <> andb def
+R55123:55131 FSPL.Imp <> no_whiles def
+R55108:55116 FSPL.Imp <> no_whiles def
+R55141:55144 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R55146:55151 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R55154:55159 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R55162:55164 FSPL.Imp <> ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI' not
+R55169:55172 Coq.Init.Datatypes <> andb def
+R55190:55198 FSPL.Imp <> no_whiles def
+R55175:55183 FSPL.Imp <> no_whiles def
+R55208:55213 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R55215:55218 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R55220:55223 FSPL.Imp <> ::'WHILE'_x_'DO'_x_'END' not
+R55229:55233 Coq.Init.Datatypes <> false constr
+ind 55532:55541 <> no_whilesR
+R55547:55550 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R55544:55546 FSPL.Imp <> com ind
+prf 55592:55604 <> no_whiles_eqv
+R55638:55642 Coq.Init.Logic <> :type_scope:x_'<->'_x not
+R55631:55633 Coq.Init.Logic <> :type_scope:x_'='_x not
+R55620:55628 FSPL.Imp <> no_whiles def
+R55630:55630 FSPL.Imp <> c var
+R55634:55637 Coq.Init.Datatypes <> true constr
+R55643:55652 FSPL.Imp <> no_whilesR ind
+R55654:55654 FSPL.Imp <> c var
+ind 57330:57335 <> sinstr
+constr 57349:57353 <> SPush
+constr 57373:57377 <> SLoad
+constr 57396:57400 <> SPlus
+constr 57413:57418 <> SMinus
+constr 57431:57435 <> SMult
+R57360:57363 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57364:57369 FSPL.Imp <> sinstr ind
+R57357:57359 Coq.Init.Datatypes <> nat ind
+R57383:57386 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R57387:57392 FSPL.Imp <> sinstr ind
+R57381:57382 FSPL.SfLib <> id ind
+R57404:57409 FSPL.Imp <> sinstr ind
+R57422:57427 FSPL.Imp <> sinstr ind
+R57439:57444 FSPL.Imp <> sinstr ind
+def 58089:58097 <> s_execute
+R58105:58109 FSPL.Imp <> state def
+R58121:58124 Coq.Init.Datatypes <> list ind
+R58126:58128 Coq.Init.Datatypes <> nat ind
+R58158:58161 Coq.Init.Datatypes <> list ind
+R58163:58168 FSPL.Imp <> sinstr ind
+R58190:58193 Coq.Init.Datatypes <> list ind
+R58195:58197 Coq.Init.Datatypes <> nat ind
+R58221:58225 FSPL.SfLib <> admit prfax
+def 58238:58247 <> s_execute1
+R58323:58328 Coq.Init.Logic <> :type_scope:x_'='_x not
+R58256:58264 FSPL.Imp <> s_execute def
+R58288:58288 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58296:58297 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58305:58306 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58314:58315 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58322:58322 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58289:58293 FSPL.Imp <> SPush constr
+R58298:58302 FSPL.Imp <> SPush constr
+R58307:58311 FSPL.Imp <> SPush constr
+R58316:58321 FSPL.Imp <> SMinus constr
+R58278:58279 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R58266:58276 FSPL.Imp <> empty_state def
+R58329:58329 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58331:58332 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58334:58334 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 58375:58384 <> s_execute2
+R58473:58478 Coq.Init.Logic <> :type_scope:x_'='_x not
+R58393:58401 FSPL.Imp <> s_execute def
+R58441:58441 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58449:58450 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58458:58459 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58465:58466 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58472:58472 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58442:58446 FSPL.Imp <> SPush constr
+R58451:58455 FSPL.Imp <> SLoad constr
+R58457:58457 FSPL.Imp <> X def
+R58460:58464 FSPL.Imp <> SMult constr
+R58467:58471 FSPL.Imp <> SPlus constr
+R58428:58428 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58430:58430 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58432:58432 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58404:58409 FSPL.Imp <> update def
+R58423:58423 FSPL.Imp <> X def
+R58411:58421 FSPL.Imp <> empty_state def
+R58479:58479 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58482:58483 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58485:58485 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+def 58727:58735 <> s_compile
+R58742:58745 FSPL.Imp <> aexp ind
+R58750:58753 Coq.Init.Datatypes <> list ind
+R58755:58760 FSPL.Imp <> sinstr ind
+R58784:58788 FSPL.SfLib <> admit prfax
+def 58889:58898 <> s_compile1
+R58957:58961 Coq.Init.Logic <> :type_scope:x_'='_x not
+R58906:58914 FSPL.Imp <> s_compile def
+R58917:58922 FSPL.Imp <> AMinus constr
+R58933:58937 FSPL.Imp <> AMult constr
+R58949:58951 FSPL.Imp <> AId constr
+R58953:58953 FSPL.Imp <> Y def
+R58940:58943 FSPL.Imp <> ANum constr
+R58925:58927 FSPL.Imp <> AId constr
+R58929:58929 FSPL.Imp <> X def
+R58962:58962 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58970:58971 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58979:58980 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58988:58989 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58995:58996 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R59003:59003 Coq.Lists.List ListNotations :list_scope:'['_x_';'_x_';'_'..'_';'_x_']' not
+R58963:58967 FSPL.Imp <> SLoad constr
+R58969:58969 FSPL.Imp <> X def
+R58972:58976 FSPL.Imp <> SPush constr
+R58981:58985 FSPL.Imp <> SLoad constr
+R58987:58987 FSPL.Imp <> Y def
+R58990:58994 FSPL.Imp <> SMult constr
+R58997:59002 FSPL.Imp <> SMinus constr
+prf 59806:59822 <> s_compile_correct
+R59839:59843 FSPL.Imp <> state def
+R59851:59854 FSPL.Imp <> aexp ind
+R59889:59891 Coq.Init.Logic <> :type_scope:x_'='_x not
+R59860:59868 FSPL.Imp <> s_execute def
+R59877:59885 FSPL.Imp <> s_compile def
+R59887:59887 FSPL.Imp <> e var
+R59873:59874 Coq.Lists.List ListNotations :list_scope:'['_']' not
+R59870:59871 FSPL.Imp <> st var
+R59892:59893 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R59904:59905 Coq.Lists.List ListNotations :list_scope:'['_x_']' not
+R59894:59898 FSPL.Imp <> aeval def
+R59903:59903 FSPL.Imp <> e var
+R59900:59901 FSPL.Imp <> st var
+mod 60017:60024 <> BreakImp
+ind 60321:60323 BreakImp com
+constr 60339:60343 BreakImp CSkip
+constr 60355:60360 BreakImp CBreak
+constr 60372:60375 BreakImp CAss
+constr 60401:60404 BreakImp CSeq
+constr 60430:60432 BreakImp CIf
+constr 60466:60471 BreakImp CWhile
+R60347:60349 FSPL.Imp <> com ind
+R60364:60366 FSPL.Imp <> com ind
+R60381:60384 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R60389:60392 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R60393:60395 FSPL.Imp <> com ind
+R60385:60388 FSPL.Imp <> aexp ind
+R60379:60380 FSPL.SfLib <> id ind
+R60411:60414 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R60418:60421 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R60422:60424 FSPL.Imp <> com ind
+R60415:60417 FSPL.Imp <> com ind
+R60408:60410 FSPL.Imp <> com ind
+R60440:60443 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R60447:60450 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R60454:60457 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R60458:60460 FSPL.Imp <> com ind
+R60451:60453 FSPL.Imp <> com ind
+R60444:60446 FSPL.Imp <> com ind
+R60436:60439 FSPL.Imp <> bexp ind
+R60479:60482 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R60486:60489 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R60490:60492 FSPL.Imp <> com ind
+R60483:60485 FSPL.Imp <> com ind
+R60475:60478 FSPL.Imp <> bexp ind
+R60707:60711 FSPL.Imp BreakImp CSkip constr
+not 60693:60693 BreakImp ::'SKIP'
+R60738:60743 FSPL.Imp BreakImp CBreak constr
+not 60723:60723 BreakImp ::'BREAK'
+R60773:60776 FSPL.Imp BreakImp CAss constr
+not 60755:60755 BreakImp ::x_'::='_x
+R60824:60827 FSPL.Imp BreakImp CSeq constr
+not 60807:60807 BreakImp ::x_';;'_x
+R60912:60917 FSPL.Imp BreakImp CWhile constr
+not 60881:60881 BreakImp ::'WHILE'_x_'DO'_x_'END'
+R61011:61013 FSPL.Imp BreakImp CIf constr
+not 60969:60969 BreakImp ::'IFB'_x_'THEN'_x_'ELSE'_x_'FI'
+ind 62111:62116 BreakImp status
+constr 62132:62140 BreakImp SContinue
+constr 62155:62160 BreakImp SBreak
+R62144:62149 FSPL.Imp <> status ind
+R62164:62169 FSPL.Imp <> status ind
+ind 64565:64569 BreakImp ceval
+constr 64620:64625 BreakImp E_Skip
+R64576:64579 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R64585:64588 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R64595:64598 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R64604:64607 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R64599:64603 FSPL.Imp <> state def
+R64589:64594 FSPL.Imp BreakImp status ind
+R64580:64584 FSPL.Imp <> state def
+R64573:64575 FSPL.Imp BreakImp com ind
+R64736:64740 FSPL.Imp <> ceval ind
+R64651:64653 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R64656:64659 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R64669:64671 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R64646:64650 FSPL.Imp BreakImp CSkip constr
+R64654:64655 FSPL.Imp <> st var
+R64660:64668 FSPL.Imp BreakImp SContinue constr
+R64672:64673 FSPL.Imp <> st var
+R64736:64740 FSPL.Imp BreakImp ceval ind
+not 64705:64705 BreakImp ::x_'/'_x_'||'_x_'/'_x
+prf 64949:64960 BreakImp break_ignore
+R65015:65023 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R65026:65028 Coq.Init.Logic <> :type_scope:x_'='_x not
+R65024:65025 FSPL.Imp <> st var
+R65029:65031 FSPL.Imp <> st' var
+R64988:64988 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R64998:65001 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65004:65007 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65009:65011 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R64994:64996 FSPL.Imp BreakImp ::x_';;'_x not
+R64989:64993 FSPL.Imp BreakImp ::'BREAK' not
+R64997:64997 FSPL.Imp <> c var
+R65002:65003 FSPL.Imp <> st var
+R65008:65008 FSPL.Imp <> s var
+R65012:65014 FSPL.Imp <> st' var
+prf 65081:65094 BreakImp while_continue
+R65155:65160 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R65162:65164 Coq.Init.Logic <> :type_scope:x_'='_x not
+R65161:65161 FSPL.Imp <> s var
+R65165:65173 FSPL.Imp BreakImp SContinue constr
+R65121:65121 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65138:65141 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65144:65147 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65149:65151 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65122:65127 FSPL.Imp BreakImp ::'WHILE'_x_'DO'_x_'END' not
+R65129:65132 FSPL.Imp BreakImp ::'WHILE'_x_'DO'_x_'END' not
+R65134:65137 FSPL.Imp BreakImp ::'WHILE'_x_'DO'_x_'END' not
+R65128:65128 FSPL.Imp <> b var
+R65133:65133 FSPL.Imp <> c var
+R65142:65143 FSPL.Imp <> st var
+R65148:65148 FSPL.Imp <> s var
+R65152:65154 FSPL.Imp <> st' var
+prf 65223:65242 BreakImp while_stops_on_break
+R65284:65289 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R65312:65317 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R65318:65318 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65335:65338 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65341:65344 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65354:65356 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65319:65324 FSPL.Imp BreakImp ::'WHILE'_x_'DO'_x_'END' not
+R65326:65329 FSPL.Imp BreakImp ::'WHILE'_x_'DO'_x_'END' not
+R65331:65334 FSPL.Imp BreakImp ::'WHILE'_x_'DO'_x_'END' not
+R65325:65325 FSPL.Imp <> b var
+R65330:65330 FSPL.Imp <> c var
+R65339:65340 FSPL.Imp <> st var
+R65345:65353 FSPL.Imp BreakImp SContinue constr
+R65357:65359 FSPL.Imp <> st' var
+R65291:65293 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65296:65299 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65306:65308 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65290:65290 FSPL.Imp <> c var
+R65294:65295 FSPL.Imp <> st var
+R65300:65305 FSPL.Imp BreakImp SBreak constr
+R65309:65311 FSPL.Imp <> st' var
+R65277:65279 Coq.Init.Logic <> :type_scope:x_'='_x not
+R65267:65271 FSPL.Imp <> beval def
+R65276:65276 FSPL.Imp <> b var
+R65273:65274 FSPL.Imp <> st var
+R65280:65283 Coq.Init.Datatypes <> true constr
+prf 65479:65494 BreakImp while_break_true
+R65561:65566 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R65585:65590 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R65591:65597 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R65602:65603 Coq.Init.Logic <> :type_scope:'exists'_x_'..'_x_','_x not
+R65605:65607 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65612:65615 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65622:65624 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65604:65604 FSPL.Imp <> c var
+R65608:65611 FSPL.Imp <> st'' var
+R65616:65621 FSPL.Imp BreakImp SBreak constr
+R65625:65627 FSPL.Imp <> st' var
+R65578:65580 Coq.Init.Logic <> :type_scope:x_'='_x not
+R65567:65571 FSPL.Imp <> beval def
+R65577:65577 FSPL.Imp <> b var
+R65573:65575 FSPL.Imp <> st' var
+R65581:65584 Coq.Init.Datatypes <> true constr
+R65519:65519 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65536:65539 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65542:65545 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65555:65557 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65520:65525 FSPL.Imp BreakImp ::'WHILE'_x_'DO'_x_'END' not
+R65527:65530 FSPL.Imp BreakImp ::'WHILE'_x_'DO'_x_'END' not
+R65532:65535 FSPL.Imp BreakImp ::'WHILE'_x_'DO'_x_'END' not
+R65526:65526 FSPL.Imp <> b var
+R65531:65531 FSPL.Imp <> c var
+R65540:65541 FSPL.Imp <> st var
+R65546:65554 FSPL.Imp BreakImp SContinue constr
+R65558:65560 FSPL.Imp <> st' var
+prf 65748:65766 BreakImp ceval_deterministic
+R65779:65781 FSPL.Imp BreakImp com ind
+R65825:65834 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R65853:65861 Coq.Init.Logic <> :type_scope:x_'->'_x not
+R65871:65874 Coq.Init.Logic <> :type_scope:x_'/\'_x not
+R65865:65867 Coq.Init.Logic <> :type_scope:x_'='_x not
+R65862:65864 FSPL.Imp <> st1 var
+R65868:65870 FSPL.Imp <> st2 var
+R65877:65879 Coq.Init.Logic <> :type_scope:x_'='_x not
+R65875:65876 FSPL.Imp <> s1 var
+R65880:65881 FSPL.Imp <> s2 var
+R65836:65838 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65841:65844 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65847:65849 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65835:65835 FSPL.Imp <> c var
+R65839:65840 FSPL.Imp <> st var
+R65845:65846 FSPL.Imp <> s2 var
+R65850:65852 FSPL.Imp <> st2 var
+R65808:65810 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65813:65816 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65819:65821 FSPL.Imp BreakImp ::x_'/'_x_'||'_x_'/'_x not
+R65807:65807 FSPL.Imp <> c var
+R65811:65812 FSPL.Imp <> st var
+R65817:65818 FSPL.Imp <> s1 var
+R65822:65824 FSPL.Imp <> st1 var
+R65927:65934 FSPL.Imp BreakImp <> mod
